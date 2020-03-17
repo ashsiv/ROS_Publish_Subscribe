@@ -7,7 +7,7 @@ Simple Pub/Sub node architecture to control the PWM frequency of an LED in Raspb
 Follow this [link](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi) to install ROS in Raspberry PI. For this project I chose the SD Card Image with Ubuntu 16.04 (LXDE). ROS comes preinstalled with this image.
 
 # Configuring ROS Environment
-Follow this [link] (http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment) to setup the ROS environment in Raspberry PI
+Follow this [link](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment) to setup the ROS environment in Raspberry PI
 
 
 # LED connections
@@ -29,7 +29,7 @@ Set PWM Freq: 1 Hz
 ```
 Output of subscriber node: receive
 ```python
-Received PWM Valuew: 1 Hz
+Received PWM Value: 1 Hz
 ```
 
 # Reference

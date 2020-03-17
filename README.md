@@ -13,5 +13,24 @@ Follow this [link] (http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringRO
 # LED connections
 Connect LED Anode to pin 12 and LED cathode to GND via a 1k resistor.
 
+# Running the code
+
+First open a new terminal and run:
+```python
+rosrun ROS_Publish_Subscribe publisher.py
+```
+Then open another terminal and run:
+```python
+rosrun ROS_Publish_Subscribe subscriber.py
+```
+Output of publisher node :send
+```python
+Set PWM Freq: 1 Hz
+```
+Output of subscriber node: receive
+```python
+Received PWM Valuew: 1 Hz
+```
+
 # Reference
 [wiki.ros.org](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)

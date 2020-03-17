@@ -1,4 +1,4 @@
-# ROS_Publish_Subscribe
+# ROS_Publish_Subscribe node model in RaspberryPI Model 3
 
 ## Project Overview
 Simple Pub/Sub node architecture to control the PWM frequency of an LED in Raspberry Pi. The Publisher node will publish the PWM frequency to the 'stream' topic and the subscriber node will listen to this topic to control the LED.
